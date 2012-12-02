@@ -1,4 +1,6 @@
 language: c
 before_install:
  - sudo apt-get install ptex-bin okumura-clsfiles texlive-latex-extra lv
-script: make all
+script:
+ - cp git-pre-commit.sh .git/hooks/pre-commit
+ - make all
