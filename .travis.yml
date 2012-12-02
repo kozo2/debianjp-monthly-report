@@ -1,0 +1,4 @@
+language: c
+before_install:
+ - sudo apt-get install ptex-bin okumura-clsfiles texlive-latex-extra
+script: make all
