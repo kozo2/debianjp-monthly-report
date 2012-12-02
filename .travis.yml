@@ -3,4 +3,4 @@ before_install:
  - sudo apt-get install ptex-bin okumura-clsfiles texlive-latex-extra lv
 script:
  - cp git-pre-commit.sh .git/hooks/pre-commit
- - make all
+ - make debianmeetingresume201210-kansai.pdf
